@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D200BCD4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mkmLink"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Metro -> KM"
+        app:backgroundTint="#172AE6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <Button
+        android:id="@+id/dcCLink1"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Milímetro ->CM"
+        app:backgroundTint="#172AE6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mCmLink" />
+
+    <Button
+        android:id="@+id/mCmLink"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Metro ->CM"
+        app:backgroundTint="#172AE6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cmMLink" />
+
+    <Button
+        android:id="@+id/cmDcLink"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="CM ->Milímetro"
+        app:backgroundTint="#172AE6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dcCLink1" />
+
+    <Button
+        android:id="@+id/cmMLink"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="CM ->Metro"
+        app:backgroundTint="#172AE6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kmMLink" />
+
+    <Button
+        android:id="@+id/kmMLink"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="KM -> Metro"
+        app:backgroundTint="#172AE6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mkmLink" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#D200BCD4"
+        android:text="Conversor de Medidas"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

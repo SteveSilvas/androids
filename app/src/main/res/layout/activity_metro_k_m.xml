@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D200BCD4"
+    tools:context=".metroKM">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Metro -> KM"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <Button
+        android:id="@+id/btnConv10"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Converter"
+        app:backgroundTint="#172AE6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt10" />
+
+    <EditText
+        android:id="@+id/edt20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="100dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="30dp"
+        android:text="Valor em Metro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="146dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="30dp"
+        android:text="Resultado em Km"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConv10" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Voltar"
+        app:backgroundTint="#172AE6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt20" />
+</androidx.constraintlayout.widget.ConstraintLayout>
